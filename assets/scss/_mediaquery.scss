@@ -1,0 +1,125 @@
+@media all and (min-width: 0px) and (max-width: 1815px) {
+  .medis {
+    display: none;
+  }
+};
+
+@media all and (min-width: 0px) and (max-width: 1400px) {
+.s6 div {
+  width: 100%;
+  justify-content: center;
+}
+footer .container {
+  flex-direction: column;
+  } 
+footer .container div {
+  padding-bottom: 15px;
+
+  }
+};
+
+@media all and (min-width: 0px) and (max-width: 1678px) {
+  .sonas_1 {
+    display: none;
+  }
+  .sonas_2 {
+    display: none;
+  }
+  .background_3 .ikonos {
+    margin: 0;
+  } 
+};
+
+@media all and (min-width: 0px) and (max-width: 1185px){
+  .padding {
+    padding-top: 48px;
+    padding-bottom: 30px;
+  }  
+
+  header div {
+      font-size: 30px;
+    }
+    .s3 .container {
+      flex-wrap: wrap;
+      width: 100%;
+      }
+
+    .s4 .container {
+      flex-wrap: wrap;
+    }
+    .s4 .container div {
+      width: 100%;
+      justify-content: center;
+    }
+    header .container {
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+    }
+    header .container div {
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+    }
+
+.logo a {
+  font-size: 28px;
+  }
+.LT a,
+.ENG a {
+  font-size: 15px;
+}
+
+.pabendraujam p,
+h2 {
+  font-size: 28px;
+  }
+.contacts {
+  font-size: 17px;
+}
+.ikonos { 
+  font-size: 25px;
+  }
+
+.s2 .ikonos {
+  margin: 10px;
+}
+.s3 p,
+.s4 p {
+  font-size: 12px;
+}
+
+.mygtukas a {
+  width: 160px;
+  font-size: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+.s3 div {
+  width: 100%;
+}
+.s4 > .container {
+  margin-top: 0;
+}
+.background_2 div {
+  padding-top:3px;
+}
+
+.background_1 .flex {
+  justify-content: flex-end;
+  }
+.mygtukas .container {
+  justify-content:center;
+  padding: 0;
+}
+.background_3 .ikonos {
+  margin: 0;
+} 
+footer {
+  padding-bottom: 30px;
+}
+.center {
+  padding: 30px;
+}
+};
