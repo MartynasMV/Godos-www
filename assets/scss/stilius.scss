@@ -59,10 +59,11 @@ img {
   align-items: center;
 }
 .s4 > .container {
-  margin-top: 45px;
+  margin-top: 60px;
 }
 
 //GENERAL END
+
 //HEADER
 a {
   color: black;
@@ -77,8 +78,7 @@ a {
 .padding {
   padding-top: 96px;
   padding-bottom: 96px;
-   
-}
+  }
 .padding_2 {
   padding-top: 25px;
 }
@@ -105,11 +105,6 @@ a {
   text-transform: uppercase;
   padding-left: 30px;
   }
-// header {
-//     position: sticky;
-//     top: 0;
-//     z-index: 99999;
-// }
 //HEADER END
 .s1 {
   position: relative;
@@ -167,6 +162,8 @@ a {
 }
 .apie_container {
 width: 50%;
+padding-right: 70px;
+
 }
 
 h2 {
@@ -175,10 +172,6 @@ h2 {
   color: #f85c36;
   }
 
-// .apie_container {
-//   align-items: center;
-// }
-
 p {
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
@@ -186,13 +179,12 @@ p {
   line-height: 1.41;
   text-align: left;
   }
-
 .s4 > .container > div { //tik tiesioginiam vaikam
   width: 30%;
 }
 .mygtukas .container {
   justify-content: center;
-  padding: 80px;
+  padding: 100px;
 }
 .mygtukas a {
   text-align: center;
@@ -219,6 +211,7 @@ p {
   color: white;
   transition: 0.5s;
 }
+
 .s8 > .container > div {
   width: 30%;
 }
@@ -229,9 +222,23 @@ p {
 
 .flex_wrap {
   flex-wrap: wrap;
-  padding: 5px;
   }
+.s6 .container div {
+  margin-top: 40px;
+}
+// .grid {
+//   display: grid;
+//   grid-template-columns: 450px 450px 450px;
+//   grid-template-rows: 450px 450px 450px;
+//   grid-gap: 40px;
 
+// }
+// .grid .d {
+//   grid-column-start: 1;
+//   grid-column-end: 3;
+//   grid-row-start: 2;
+//   grid-row-end: 3;
+//   }
 .background_1 {
   background-image: url('../images/background_1.jpg');
   background-size:100% auto;
@@ -242,10 +249,8 @@ p {
 .background_2 {
   background-color: #73bed1;
 }
-.background_2 div {
-  padding-top: 45px;
-}
-background2_5 {
+
+.background2_5 {
   display: block;
 }
 .background_3 {
@@ -286,10 +291,5 @@ background2_5 {
 footer {
   padding-bottom: 160px;
 }
-
-
-
-
-
 
 @import 'mediaquery';

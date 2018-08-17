@@ -96,6 +96,22 @@ h2 {
   background-repeat: no-repeat;
   justify-content: center;
 }
+.mygtukas a:hover {
+  text-align: center;
+  display: inline-block;
+  background: url('../mygtukas2.png');
+  background-size:100% auto;
+  background-repeat: off;
+  width: 160px;
+  line-height: 150px;
+  font-size: 16px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  transition: 0.5s;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
 .s3 div {
   width: 100%;
 }
